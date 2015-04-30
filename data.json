@@ -1,0 +1,8 @@
+{
+  "locations" : [
+    {"name" : "Tokyo", "population": 13350000, "area" : "845 sq mi", "monsters" : "Godzilla", "image" : "godzilla.jpg"},
+    {"name" : "Hong Kong", "population" : 7188000, "area" : "426 sq mi", "monsters" : "Kaiju", "image" : "kaiju.jpg"},
+    {"name" : "New Delhi", "population" : 302363, "area" : "573 sq mi", "monsters" : "Monkey Man", "image" : "Monkey_Man.jpg"},
+    {"name" : "New York", "population" : 8406000, "area" : "469 sq mi", "monsters" : "King Kong", "image" : "king_kong.jpg"}
+  ]
+}
