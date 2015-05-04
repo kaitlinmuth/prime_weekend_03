@@ -2,23 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
+    <title>Maps for Art</title>
     <meta name="description" content="Webpage">
-    <!-- This is where to hook up a CSS file -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <!-- e<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
     <script src="jquery-1.11.2.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <!-- ?key=AIzaSyAOVIheEtenIaloK9sw4z1eFGXUDEjbho4"></script> -->
     <script src="app.js"></script>
 
   </head>
-  
+
   <body>
       <div class="container">
+        <h1> maps for art</h1>
+        <div class="controls">
+            <input type="text" id="searchField" class="controls" placeholder="Select your destination...">
+            <div class="radioBtns">Show Parks:
+            <input type="radio" name="parks" value="true" id="parksBtnTrue" checked>On
+            <input type="radio" name="parks" value="false" id="parksBtnFalse">Off
+            </div>
+        </div>
+        <div id="map-canvas">
+        </div>
+          <div class="inspiration">
+              <h3> get inspired:</h3>
+              <ul>
+                  <li><a href="http://jillspurgin.com/Jill_Spurgin/Portfolio.html#22">"San Diego Aerial" by Jill Spurgin</a></li>
+                  <li><a href="https://www.etsy.com/listing/100544166/chicago-embroidered-map-illustrated?ref=shop_review">"Chicago Embroidered Map, Illustrated Style" by NeedleAndCompass</a></li>
+                  <li><a href="http://www.hapticlab.com/products/london">"London" by Haptic Lab</a></li>
+                  <li><a href="http://www.oxtonartfair.co.uk/artists/mary-bryning/mary-bryning.html">"Chester" by Mary Bryning</a></li>
+              </ul>
+          </div>
       </div>
-  </body>
 
+  </body>
 
 </html>
