@@ -31,6 +31,12 @@ var parkOptions = {
 
 // this is where to set the initial style options for the map
 var mapStyles = [
+    // set background color
+    {
+        featureType: 'all',
+        elementType: 'geometry',
+        stylers: [{color: '#ffffff'}]
+    },
     // turn off all labels
     {
         featureType: 'all',
