@@ -1,0 +1,31 @@
+#map-canvas {
+    width: 1000px;
+    height: 550px;
+    display: block;
+}
+
+.container {
+    font-family: Roboto, sans-serif;
+}
+
+.controls {
+    float: right;
+    width: 20%;
+}
+.radioBtns{
+    margin-left: 2em;
+    float: left;
+}
+
+#searchField {
+    float: left;
+    background-color: #fff;
+    font-size: 15px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 80%;
+}
+
+#searchField:focus {
+    border-color: #4d90fe;
+}
